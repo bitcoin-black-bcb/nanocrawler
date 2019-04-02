@@ -7,7 +7,7 @@ import config from "client-config.json";
 import ValidatedSearch from "app/partials/ValidatedSearch";
 // import RandomVerifiedAccounts from "app/partials/explorer/RandomVerifiedAccounts";
 import ExplorerTopAccounts from "app/partials/explorer/ExplorerTopAccounts";
-import RecentBlockStream from "app/partials/explorer/RecentBlockStream";
+// import RecentBlockStream from "app/partials/explorer/RecentBlockStream";
 
 class Explorer extends React.PureComponent {
   state = {
@@ -75,7 +75,6 @@ class Explorer extends React.PureComponent {
           </div>
 
           <div className="mt-5">
-            <RecentBlockStream count={10} />
           </div>
         </div>
       </div>
