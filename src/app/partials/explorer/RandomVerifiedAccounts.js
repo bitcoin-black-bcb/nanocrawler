@@ -1,15 +1,15 @@
-import React, { Fragment } from "react";
-import { TranslatedMessage } from "lib/TranslatedMessage";
-import sampleSize from "lodash/sampleSize";
+import React, { Fragment } from 'react';
+import { TranslatedMessage } from 'lib/TranslatedMessage';
+import sampleSize from 'lodash/sampleSize';
 
-import AccountLink from "../AccountLink";
+import AccountLink from '../AccountLink';
 
 export default class RandomVerifiedAccounts extends React.Component {
   state = { accounts: [] };
 
   async componentDidMount() {
-    const data = await fetch("https://mynano.ninja/api/accounts/verified", {
-      mode: "cors"
+    const data = await fetch('https://mynano.ninja/api/accounts/verified', {
+      mode: 'cors'
     });
     const accounts = await data.json();
 
@@ -32,7 +32,7 @@ export default class RandomVerifiedAccounts extends React.Component {
                   target="_blank"
                   className="text-muted"
                 >
-                  My Nano Ninja
+                  My BCB Ninja
                 </a>
               )
             }}

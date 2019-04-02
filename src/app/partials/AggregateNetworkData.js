@@ -96,7 +96,7 @@ export default class AggregateNetworkData extends React.Component {
                       href="https://github.com/NanoTools/nanoNodeMonitor"
                       target="_blank"
                     >
-                      nanoNodeMonitors
+                      CBCNodeMonitors
                     </a>
                   )
                 }}

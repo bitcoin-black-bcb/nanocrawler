@@ -61,12 +61,7 @@ export default class ExplorerTopAccounts extends React.Component {
       <Fragment>
         <div className="row align-items-center">
           <div className="col-md">
-            <h3 className="mb-0">
-              <TranslatedMessage
-                id="explorer.top_accounts"
-                values={{ count }}
-              />
-            </h3>
+        
             <p className="mb-0 text-muted">
               <TranslatedMessage id="explorer.top_accounts_desc" />
             </p>

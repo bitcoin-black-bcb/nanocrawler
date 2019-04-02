@@ -28,30 +28,22 @@ function App({ locale }) {
         <div className="row mr-0 align-items-center">
           <div className="col-md">
             <div className="py-2 px-4">
-              <p className="mb-0">Created by Ryan LeFevre (@meltingice)</p>
+              {/* <p className="mb-0">Created by Ryan LeFevre (@meltingice)</p> */}
               <p>
                 Donations: <AccountLink account={config.donationAddress} />
               </p>
             </div>
           </div>
-          <div className="col-auto">
-            <div className="py-2 px-4">
-              <a href="https://twitter.com/meltingice" target="_blank">
-                Twitter
-              </a>{" "}
-              &bull;{" "}
-              <a href="https://reddit.com/u/meltingice" target="_blank">
-                Reddit
-              </a>{" "}
-              &bull;{" "}
+          {<div className="col-auto">
+            
               <a
-                href="https://github.com/meltingice/nano-node-dashboard"
+              href="https://github.com/bitcoin-black-bcb/nanocrawler"
                 target="_blank"
               >
                 Source code
               </a>
-            </div>
-          </div>
+           
+          </div>}
         </div>
       </div>
     </IntlProvider>

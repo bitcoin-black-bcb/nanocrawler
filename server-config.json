@@ -1,0 +1,17 @@
+{
+  "nodeName": "bitcoinblackcrawler.cc",
+  "account": "bcb_1hhydahodfto64gptmtj4ngzid3j85ocyxiby4rmnisy8kbjs4gzf3aqnhss",
+  "clientUrl": "https://bitcoinblackcrawler.cc",
+  "raiblocksDir": "/home/BtcbBeta",
+  "nodeHost": "http://[::1]:15000",
+  "redis": "redis://127.0.0.1:6379",
+  "redisNamespace": "development",
+  "serverPort": 3001,
+  "coinMarketCapApiKey": "f01eb9cc-7991-4161-873c-2e2109115454",
+  "monitorCurrencyName": "bcb",
+  "knownMonitors": [],
+  "blacklistedPeers": [],
+  "officialRepresentatives": [
+    "bcb_18orndg86m46gc6qr4twhuht99r1x9pp61f3i4ypmrto6hb15swywcjtbtiy"
+  ]
+}
